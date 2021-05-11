@@ -1,0 +1,260 @@
+#divTable {
+  width: 100%;
+  padding: 5px 0px 20px 0px;
+  background-color: #d3d3d3;
+  position: relative;
+  clear: both; }
+  #divTable h1 {
+    color: #f58c02;
+    text-align: center;
+    padding: 7px 0px; }
+  #divTable #bangQL {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%; }
+    #divTable #bangQL th {
+      background-color: #696969;
+      padding: 3px 5px;
+      border: 1px white solid; }
+    #divTable #bangQL #td4 {
+      font-weight: normal;
+      background-color: #ffffff;
+      padding: 0px 5px;
+      border-bottom: 1px black solid; }
+      #divTable #bangQL #td4 a {
+        background-color: #f58c02;
+        padding: 3px 7px; }
+      #divTable #bangQL #td4 a:hover {
+        color: #1b1d4d; }
+  #divTable #bang1 {
+    margin: auto;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 20px; }
+    #divTable #bang1 td,
+    #divTable #bang1 th {
+      padding: 3px 15px; }
+    #divTable #bang1 h1 {
+      color: #f97a12;
+      padding: 7px 0px; }
+    #divTable #bang1 #bang2 {
+      background-color: #d3d3d3;
+      width: 100%; }
+      #divTable #bang1 #bang2 td,
+      #divTable #bang1 #bang2 th {
+        padding: 3px;
+        text-align: center; }
+      #divTable #bang1 #bang2 th {
+        background-color: #696969;
+        border: solid 1px white; }
+      #divTable #bang1 #bang2 td {
+        padding: 3px 7px;
+        border-bottom: solid 1px black; }
+        #divTable #bang1 #bang2 td a {
+          background-color: #f58c02;
+          padding: 3px 15px; }
+        #divTable #bang1 #bang2 td a:hover {
+          background-color: green; }
+      #divTable #bang1 #bang2 .td222 {
+        padding: 3px 20px; }
+      #divTable #bang1 #bang2 .td1 {
+        color: red;
+        font-weight: bold; }
+    #divTable #bang1 #bang3 {
+      padding: 7px 0px;
+      background-color: #d3d3d3;
+      width: 100%; }
+      #divTable #bang1 #bang3 td {
+        padding: 0px 0px 0px 30px; }
+        #divTable #bang1 #bang3 td span {
+          font-weight: bold; }
+        #divTable #bang1 #bang3 td input {
+          margin-left: 30px; }
+      #divTable #bang1 #bang3 #thinput {
+        padding: 7px 0px; }
+        #divTable #bang1 #bang3 #thinput input {
+          margin: 0px;
+          padding: 5px;
+          font-size: 18px;
+          background-color: #CD853F;
+          font-weight: bold; }
+        #divTable #bang1 #bang3 #thinput .in1:hover {
+          background-color: #DEB887; }
+    #divTable #bang1 #in3 {
+      background-color: #f58c02;
+      border: #302616 2px solid;
+      color: #ffffff;
+      padding: 7px 10px; }
+    #divTable #bang1 #in3:hover {
+      background-color: #1b1d4d; }
+    #divTable #bang1 #in33 {
+      background-color: white;
+      text-align: right;
+      padding: 0px 0px; }
+      #divTable #bang1 #in33 img {
+        height: 30px;
+        width: 40px; }
+
+#divTong {
+  clear: both;
+  margin-top: 10px;
+  padding: 10px 0px;
+  width: 100%;
+  height: 100%; }
+  #divTong h1 {
+    background-color: #302616;
+    color: #f97a12;
+    text-align: center;
+    padding: 10px 0px; }
+  #divTong p {
+    clear: left;
+    text-align: center;
+    padding: 7px 0px; }
+    #divTong p a {
+      font-size: 20px;
+      padding: 10px;
+      background-color: royalblue; }
+    #divTong p a:hover {
+      background-color: #1b1d4d; }
+  #divTong #bang1SP {
+    background-color: #ffffff;
+    font-size: 21px;
+    display: block;
+    float: left;
+    padding: 0px;
+    margin-bottom: 7px;
+    width: 25%;
+    height: 480px;
+    border: 2px black solid; }
+    #divTong #bang1SP td {
+      padding: 2px; }
+    #divTong #bang1SP .td11 {
+      font-size: 30px; }
+    #divTong #bang1SP #td1 {
+      padding-left: 30px; }
+    #divTong #bang1SP th {
+      width: 642px;
+      height: 250px; }
+      #divTong #bang1SP th img {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%; }
+  #divTong #bang2SP {
+    clear: left;
+    width: 100%;
+    margin: 3px 0px; }
+    #divTong #bang2SP td a {
+      text-decoration: none;
+      background-color: #f58c02;
+      padding: 12px 7px;
+      font-size: 18px; }
+    #divTong #bang2SP td a:hover {
+      background-color: #696969; }
+
+@media only screen and (max-width: 1024px) and (min-width: 999px) {
+  #divTong #bang1SP {
+    font-size: 24px;
+    height: 480px; }
+    #divTong #bang1SP .td11 {
+      font-size: 28px; }
+    #divTong #bang1SP #bang2SP {
+      width: 100%;
+      height: 100%;
+      margin: 1px 0px; }
+      #divTong #bang1SP #bang2SP td {
+        padding: 0px; }
+        #divTong #bang1SP #bang2SP td a {
+          padding: 9px 5px;
+          font-size: 14px; } }
+@media only screen and (max-width: 768px) {
+  #divTong p a {
+    font-size: 17px;
+    padding: 5px; }
+  #divTong #bang1SP {
+    font-size: 17px;
+    height: 360px; }
+    #divTong #bang1SP th {
+      height: 180px; }
+    #divTong #bang1SP .td11 {
+      font-size: 24px; }
+    #divTong #bang1SP .td11 {
+      font-size: 22px; }
+    #divTong #bang1SP #td1 {
+      padding-left: 10px; }
+    #divTong #bang1SP #bang2SP {
+      margin: 1px 0px; }
+      #divTong #bang1SP #bang2SP td a {
+        padding: 5px 2px;
+        font-size: 10px; }
+
+  #divTable {
+    width: 765px; }
+    #divTable h1 {
+      font-size: 25px;
+      padding: 5px 0px; }
+    #divTable #bangQL {
+      position: absolute;
+      font-size: 16px;
+      width: 760px; }
+      #divTable #bangQL th, #divTable #bangQL td {
+        font-size: 16px;
+        padding: 0px; }
+    #divTable #bang1 {
+      font-size: 17px; }
+      #divTable #bang1 td,
+      #divTable #bang1 th {
+        padding: 0px; }
+      #divTable #bang1 h1 {
+        color: #f97a12;
+        padding: 3px 0px; }
+      #divTable #bang1 #bang2 td,
+      #divTable #bang1 #bang2 th {
+        padding: 0px;
+        text-align: center; }
+      #divTable #bang1 #bang3 {
+        padding: 7px 0px;
+        background-color: #d3d3d3;
+        width: 100%; }
+        #divTable #bang1 #bang3 td {
+          padding: 0px 0px 0px 30px; }
+          #divTable #bang1 #bang3 td span {
+            font-weight: bold; }
+          #divTable #bang1 #bang3 td input {
+            margin-left: 30px; }
+        #divTable #bang1 #bang3 #thinput {
+          padding: 7px 0px; }
+          #divTable #bang1 #bang3 #thinput input {
+            margin: 0px;
+            padding: 5px;
+            font-size: 18px;
+            background-color: royalblue;
+            font-weight: bold; }
+          #divTable #bang1 #bang3 #thinput .in1:hover {
+            background-color: #f58c02; } }
+@media only screen and (max-width: 375px) {
+  #divTong p a {
+    font-size: 10px;
+    padding: 3px; }
+  #divTong #bang1SP {
+    font-size: 10px;
+    height: 200px; }
+    #divTong #bang1SP th {
+      height: 100px; }
+    #divTong #bang1SP .td11 {
+      font-size: 10px; }
+    #divTong #bang1SP td {
+      padding: 0px; }
+    #divTong #bang1SP #td1 {
+      padding-left: 2px; }
+    #divTong #bang1SP #bang2SP {
+      width: 100%;
+      height: 100%;
+      margin: 1px 0px; }
+      #divTong #bang1SP #bang2SP td {
+        padding: 0px; }
+        #divTong #bang1SP #bang2SP td a {
+          padding: 3px 2px;
+          font-size: 4px; } }
+
+/*# sourceMappingURL=fomatTableDH.css.map */
